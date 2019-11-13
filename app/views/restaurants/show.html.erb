@@ -1,0 +1,12 @@
+<h1><%="#{@restaurant.name} (#{@restaurant.category} restaurant) \n #{@restaurant.address} (#{@restaurant.phone_number})"%></h1>
+
+<h2>Reviews:</h2>
+
+<p><%= @restaurant.reviews %></p>
+<ul>
+  <li>
+
+  </li>
+</ul>
+
+<p class="btn btn-outline-primary"><%= link_to "Back to home", restaurants_path%></p>
